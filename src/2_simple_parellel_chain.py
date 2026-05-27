@@ -133,10 +133,10 @@ graph.add_edge("calculate_summary",END)
 
 cricketGraph = graph.compile()
 
-result = cricketGraph.invoke({"runs": 78,
-    "balls": 52,
-    "fours": 7,
-    "sixes": 3,
+result = cricketGraph.invoke({"runs": 93,
+    "balls": 33,
+    "fours": 5,
+    "sixes": 9,
 
     # placeholder values (will be calculated by graph)
     "strike_rate": 0.0,
