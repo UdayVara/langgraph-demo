@@ -147,12 +147,7 @@ result = cricketGraph.invoke({"runs": 78,
 
 print(f"Strike Rate: {result['strike_rate']} \nBalls Per Boundary: {result['balls_per_boundary']} \nBoundary Percentage: {result['boundary_percentage']} \nSummary: {result['summary']}")
 
-# Display graph image
-display(
-    Image(
-        app.get_graph().draw_mermaid_png()
-    )
-)
+
 
 
 
