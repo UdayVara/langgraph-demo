@@ -6,7 +6,7 @@ from langgraph.graph import StateGraph
 from pydantic import BaseModel, Field
 
 model = ChatOllama(
-    model="qwen2.5-coder:7b "
+    model="qwen2.5-coder:7b"
 )
 
 parser = StrOutputParser()
