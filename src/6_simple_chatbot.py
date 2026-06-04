@@ -51,11 +51,11 @@ while True:
     )
 
     result = graph.invoke({
-        "messages": messages
+        "messages": HumanMessage(content=user_input)
     })
 
     ai_message = result["messages"][-1]
 
     print("Bot:", ai_message.content)
-
+    print("State: ",result)
     messages.append(ai_message)
